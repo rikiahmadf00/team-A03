@@ -1,0 +1,51 @@
+/* Tata letak untuk Tablet */
+@media (max-width: 1000px) {
+  .person{
+    width: 70%;
+    margin-left: 90px;
+    margin-bottom: 30px;
+  }
+}
+
+
+/* Tata letak untuk Smartphone */
+@media (max-width: 670px) {
+  .buttonMenu {
+    display: block;
+    background-color: #f38704;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 14px;
+    padding: 0 15px;
+    transition: all 0.5s;
+    cursor: pointer;
+    line-height: 65px;
+    float: left;
+
+  }
+
+  .logo {
+    color: #000a06;
+    margin: 22px;
+    font-size: 15px;
+  }
+    
+  .person {
+    margin-left: 15px;
+    margin-bottom: 20px;
+    width: 90%;
+  }
+  
+  .heading h2{
+    font-size: 20px;
+  }
+  
+  .heading p{
+    font-size: 15px;
+  }
+  
+  .person p{
+    font-size: 15px;
+  }
+}
